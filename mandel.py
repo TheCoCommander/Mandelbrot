@@ -1,7 +1,7 @@
 from PIL import Image
 from random import randint
 
-resolution_x = 100000 
+resolution_x = 50000 
 resolution_y = int(resolution_x/2)
 x, y, size = -0.60, 0.0, 2.0
 step_x, step_y = (size*2)/resolution_x, size/resolution_y
